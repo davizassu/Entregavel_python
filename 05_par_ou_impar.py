@@ -7,3 +7,21 @@ numero = int(input("Digite um número inteiro: "))
 resultado = ("par", "ímpar")[numero % 2]
 
 print(f"O número {numero} é {resultado}.")
+
+#Versão Portugol:
+programa {
+  funcao inicio() {
+    inteiro numero
+
+    // Lê um número inteiro
+    escreva("Digite um número inteiro: ")
+    leia(numero)
+
+    // Resto da divisão por 2: 0 = par, 1 = ímpar
+    se (numero % 2 == 0) {
+      escreva("O número ", numero, " é par.\n")
+    } senao {
+      escreva("O número ", numero, " é ímpar.\n")
+    }
+  }
+}
